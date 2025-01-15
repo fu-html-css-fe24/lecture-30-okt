@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <h1>Student Account Registration</h1>
+      <form class="form">
+        <fieldset class="form-inner">
+          <legend>Student Information</legend>
+          <input
+            type="text"
+            class="form-input span-two"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            class="form-input span-two"
+            placeholder="Last Name"
+          />
+          <input
+            type="number"
+            class="form-input span-two"
+            placeholder="Birth Date (yyymmdd)"
+          />
+          <input
+            type="email"
+            class="form-input span-three"
+            placeholder="Email Address"
+          />
+          <input
+            type="phone"
+            class="form-input span-three"
+            placeholder="Phone Number"
+          />
+        </fieldset>
+        <fieldset class="form-inner">
+          <legend>Address Information</legend>
+          <input
+            type="text"
+            class="form-input span-six"
+            placeholder="Street Address"
+          />
+          <input type="text" class="form-input span-three" placeholder="City" />
+          <input
+            type="text"
+            class="form-input span-three"
+            placeholder="State / Province"
+          />
+          <input
+            type="text"
+            class="form-input span-three"
+            placeholder="Country"
+          />
+          <input
+            type="number"
+            class="form-input span-three"
+            placeholder="ZIP Code"
+          />
+        </fieldset>
+        <fieldset class="form-inner">
+          <legend>Account Settings</legend>
+          <input
+            type="text"
+            class="form-input span-four"
+            placeholder="Student ID"
+          />
+          <select
+            name="accountType"
+            id="accountType"
+            class="form-select span-two"
+          >
+            <option value="">-- Choose Account Type --</option>
+            <option value="permanent">Permanent</option>
+            <option value="temporary">Temporary</option>
+          </select>
+          <input
+            type="password"
+            class="form-input span-three"
+            placeholder="Password"
+          />
+          <input
+            type="password"
+            class="form-input span-three"
+            placeholder="Password Again"
+          />
+        </fieldset>
+        <button class="button">Register Account</button>
+      </form>
+    </div>
+  </body>
+</html>
